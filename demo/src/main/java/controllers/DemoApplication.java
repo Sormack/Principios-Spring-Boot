@@ -1,13 +1,13 @@
-package com.ejercicio.demo;
+package controllers;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class UsoDeEiquetasBasicasApplication {
+public class DemoApplication {
 
 	public static void main(String[] args) {
-		SpringApplication.run(UsoDeEiquetasBasicasApplication.class, args);
+		SpringApplication.run(DemoApplication.class, args);
 	}
 
 }
